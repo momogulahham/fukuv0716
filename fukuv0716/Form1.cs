@@ -16,5 +16,16 @@ namespace fukuv0716
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text =int.Parse (textBox1.Text) +label1.Left;
+            label1.Text = textBox2.Text + label1.Left;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
